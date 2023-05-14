@@ -5,7 +5,7 @@ from collections import namedtuple
 
 import numpy as np
 import pandas as pd
-from rdt.transformers import OneHotEncodingTransformer
+from rdt.transformers import OneHotEncoder as OneHotEncodingTransformer
 from sklearn.mixture import BayesianGaussianMixture
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 
